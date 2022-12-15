@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Hero from "./components/Main";
+import Game from "./components/Game";
+import NavBar from "./components/Navbar";
+import Winner from "./components/Winner";
+import History from "./components/History";
+import WinnerRecord from "./components/WinnerRecord";
+import SpaceBetweenPage from "./components/SpaceBetweenPage";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Hero />
+      <SpaceBetweenPage />
+      <Game />
+      <SpaceBetweenPage />
+      <Winner />
+      <SpaceBetweenPage />
+      <History />
+      <SpaceBetweenPage />
+      <WinnerRecord />
+      <SpaceBetweenPage />
     </div>
   );
 }
