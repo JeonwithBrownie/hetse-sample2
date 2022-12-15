@@ -3,6 +3,7 @@ import "./main.css";
 import RankText from './RankText';
 import RealTimeCoinRise from './RealTimeCoinRise';
 import ProgressBar from './ProgressBar';
+import RealTimeCookie from './RealTimeCookie';
 
 const RealTimeRanking = () => {
   let coinRise = [5.2, 3.2, 2.2, 1.2, 0.3, 0.7, 5.2, -0.3, -0.6, 0, 5];
@@ -14,7 +15,8 @@ const RealTimeRanking = () => {
       </div>
       <div className="real-time-ranking-layout">
         <RankText />
-        <ProgressBar/>
+        <ProgressBar />
+        <RealTimeCookie />
         <RealTimeCoinRise coinRise={coinRise} />
       </div>
     </div>

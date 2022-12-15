@@ -56,7 +56,7 @@ const WinnerRecord = () => {
           />
         </div>
       </div>
-      <img className="cookie" src={cookie11}></img>
+      
     </div>
   );
 };
