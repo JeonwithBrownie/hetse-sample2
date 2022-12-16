@@ -6,6 +6,7 @@ const { Server } = require("socket.io");
 app.use(cors());
 
 //wtf
+//hahaa
 
 const server = http.createServer(app);
 
