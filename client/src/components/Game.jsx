@@ -13,8 +13,11 @@ import orbit from "../images/orbit.png";
 
 const Game = () => {
   return (
-    <div className="gameDiv">
+    <div className="game-div">
       <div>#2 Game</div>
+      <div className="title-div">
+        <div className="titleText">게임페이지</div>
+      </div>
       <div className="coinContainerWrapper">
         <div className="coinContainer">
           <div className="textDiv"> 예측 코인을 순서대로 눌러주세요</div>

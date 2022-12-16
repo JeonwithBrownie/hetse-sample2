@@ -1,7 +1,6 @@
 import React from "react";
 import "./main.css";
 import EachWinnerRecord from "./EachWinnerRecord";
-import cookie11 from "../images/cookie11.gif"
 import RankText from "./RankText";
 
 const WinnerRecord = () => {
